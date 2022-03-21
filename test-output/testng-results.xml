@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3907" started-at="2022-03-21T10:49:41Z" finished-at="2022-03-21T10:49:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3907" started-at="2022-03-21T10:49:41Z" finished-at="2022-03-21T10:49:45Z">
+      <class name="Api_Testing.Rest_Project.Rest_Project2">
+        <test-method status="PASS" signature="postmethod(org.testng.ITestContext)[pri:0, instance:Api_Testing.Rest_Project.Rest_Project2@1a968a59]" name="postmethod" duration-ms="3744" started-at="2022-03-21T16:19:41Z" finished-at="2022-03-21T16:19:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b49cea0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postmethod -->
+        <test-method status="PASS" signature="putmethod(org.testng.ITestContext)[pri:0, instance:Api_Testing.Rest_Project.Rest_Project2@1a968a59]" name="putmethod" duration-ms="63" started-at="2022-03-21T16:19:45Z" depends-on-methods="Api_Testing.Rest_Project.Rest_Project2.postmethod" finished-at="2022-03-21T16:19:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b49cea0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putmethod -->
+        <test-method status="PASS" signature="getmethod(org.testng.ITestContext)[pri:0, instance:Api_Testing.Rest_Project.Rest_Project2@1a968a59]" name="getmethod" duration-ms="30" started-at="2022-03-21T16:19:45Z" depends-on-methods="Api_Testing.Rest_Project.Rest_Project2.putmethod" finished-at="2022-03-21T16:19:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b49cea0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getmethod -->
+        <test-method status="PASS" signature="deletemethod(org.testng.ITestContext)[pri:0, instance:Api_Testing.Rest_Project.Rest_Project2@1a968a59]" name="deletemethod" duration-ms="35" started-at="2022-03-21T16:19:45Z" depends-on-methods="Api_Testing.Rest_Project.Rest_Project2.getmethod" finished-at="2022-03-21T16:19:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b49cea0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletemethod -->
+      </class> <!-- Api_Testing.Rest_Project.Rest_Project2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
