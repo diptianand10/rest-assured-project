@@ -55,7 +55,7 @@ public class Rest_Project1 {
 			val.setAttribute("password", pass);
 			
 			System.out.println(usrname);
-// 			System.out.println(pass);
+			System.out.println(pass);
 			
 		}catch(AssertionError e){
 			System.out.println("Exception handled in postmethod");
